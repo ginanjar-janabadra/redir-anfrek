@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(?:www\.)frequency-analysis.herokuapp\.com$ [NC]
+RewriteRule ^https://frequency-analysis.thedev.skom.id/%{REQUEST_URI} [L,R=301]
